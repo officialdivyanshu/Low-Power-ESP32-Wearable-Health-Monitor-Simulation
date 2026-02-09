@@ -86,3 +86,59 @@ This project demonstrates the **functional design and simulation** of a wearable
 
 ## 📁 Repository Structure
 
+
+---
+
+## ▶️ How to Run the Simulation
+
+1. Open **https://wokwi.com**
+2. Create a new **ESP32** project
+3. Replace:
+   - `sketch.ino`
+   - `diagram.json`
+4. Install required libraries (via Wokwi Library Manager)
+5. Click **Start Simulation**
+6. Observe Serial Monitor and display output
+
+---
+
+## 🔋 Low Power Design Considerations
+
+Although power consumption cannot be simulated, the design incorporates:
+- I²C bus sharing
+- Interrupt-based sensor handling
+- Minimal GPIO usage
+- Compatibility with ESP32 deep-sleep modes
+
+These optimizations are evaluated during the **hardware implementation phase**.
+
+---
+
+## 🚀 Hardware Implementation (Future Work)
+
+Planned hardware extensions include:
+- 3.7V Li-ion battery
+- TP4056 charging module
+- Deep sleep power optimization
+- Wearable enclosure integration
+- Real-time heart rate & SpO₂ validation
+
+---
+
+## 📄 Academic Note
+
+This repository represents the **simulation and design validation phase** of the project.  
+Hardware testing and power analysis are conducted separately due to simulator limitations.
+
+---
+
+## 👤 Author
+
+**Divyanshu Shekhar**  
+Electronics & Communication Engineering  
+Low Power VLSI / Embedded Systems Project
+
+---
+
+## 📜 License
+This project is intended for **academic and educational use**.
